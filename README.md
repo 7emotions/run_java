@@ -16,10 +16,10 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 
 <h2>Run java program</h2>   
 `
-  run-java <JavaFile>
+  java <JavaFile>
 `     
   example:     
-     `run_java HelloWorld`     
+     `java HelloWorld`     
 
 E-mail:paradise.cfly@gmail.com
 QQ:3393103594
