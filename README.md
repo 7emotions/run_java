@@ -9,7 +9,7 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 
 <h1>@Install</h1>
 <code>
-  apt-get Install git 
+  apt-get Install git<br/> 
   git clone https://github.com/7emotions/run_java.git
   cd run_java/
   chmod u+x install&&./install
