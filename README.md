@@ -7,14 +7,14 @@ So it has another way to run Java program in termux---ecj.
 
 This script can automatically install ecj, dx and termux-tools in termux to run Java program. 
 
-##Install##
+<h2>Install</h2>    
 ```
     git clone https://github.com/7emotions/run_java.git
     cd run_java
     chmod u+x install.sh&&./install.sh
 ```
 
-##Run java program##    
+<h2>Run java program</h2>   
 `
   run-java <JavaFile>
 `     
