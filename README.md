@@ -9,19 +9,17 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 
 ##Install
 ```
-<ul>
-    <li>git clone [https://github.com/7emotions/run_java.git](https://github.com/7emotions/run_java.git)</li>
-    <li>cd run_java</li>
-    <li>chmod u+x install.sh&&./install.sh</li>
-</ul>
+    git clone [https://github.com/7emotions/run_java.git](https://github.com/7emotions/run_java.git)
+    cd run_java
+    chmod u+x install.sh&&./install.sh
 ```
 
-##@Run java program
+##@Run java program    
 `
   run-java <JavaFile>
-`
-  example:
-     `run_java HelloWorld`
+`     
+  example:     
+     `run_java HelloWorld`     
 
 E-mail:paradise.cfly@gmail.com
 QQ:3393103594
