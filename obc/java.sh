@@ -15,7 +15,8 @@ then
 		echo 'Not Java File'
 		exit 1
 	fi
-	cd $@
+	wd=$(dirname $@)
+	cd $wd
 	name=$(basename ${file} .java)
 	ecj "$name.java"
 	dx --dex --output="$name.dex" "$name.class"
