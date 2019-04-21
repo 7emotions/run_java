@@ -19,7 +19,7 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 <h2>Run java program</h2>   
 
 `
-  java <JavaFile>
+     java <JavaFile>
 `     
   example:     
 ```
