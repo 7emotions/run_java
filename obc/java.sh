@@ -14,8 +14,9 @@ then
 		echo 'Not Java File'
 		exit 1
 	fi
+	name=$(basename ${file} .java)
+	ecj "$name.java"
+	dx --dex --output="$name.dex" "$name.class"
+	dalvikvm -cp "$name.dex" "$name"
 fi
 
-ecj "$1.java"
-dx --dex --output="$1.dex" "$1.class"
-dalvikvm -cp "$1.dex" "$1"
