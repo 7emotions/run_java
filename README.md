@@ -1,11 +1,11 @@
 
 # run\_java
-Run java program in termux. 
+> Run java program in termux. 
 
-Because the JDK is too big to install in termux.    
-So it has another way to run Java program in termux---ecj. 
+>> Because the JDK is too big to install in termux.    
+>> So it has another way to run Java program in termux---ecj. 
 
-This script can automatically install ecj, dx and termux-tools in termux to run Java program. 
+>> This script can automatically install ecj, dx and termux-tools in termux to run Java program. 
 
 <h2>Install</h2>    
 
@@ -18,9 +18,9 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 
 <h2>Run java program</h2>   
 
-`
+```
      java <JavaFile>
-`     
+```      
   example:     
 ```
      cd ~/run_java/
