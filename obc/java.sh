@@ -8,15 +8,18 @@ fi
 
 if [ $# -eq 1 ] 
 then 
+	pwd=$pwd
 	file=`basename $@`
 	if [[ ! $file =~ \.java$ ]]
 	then
 		echo 'Not Java File'
 		exit 1
 	fi
+	cd $@
 	name=$(basename ${file} .java)
 	ecj "$name.java"
 	dx --dex --output="$name.dex" "$name.class"
 	dalvikvm -cp "$name.dex" "$name"
+	cd $pwd
 fi
 
