@@ -10,6 +10,7 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
 <h2>Install</h2>    
 
 ```
+    cd ~
     git clone https://github.com/7emotions/run_java.git
     cd run_java
     chmod u+x install.sh&&./install.sh
@@ -21,8 +22,10 @@ This script can automatically install ecj, dx and termux-tools in termux to run 
   java <JavaFileName>
 `     
   example:     
-     `java HelloWorld`     
-
+```
+     cd ~/run_java/Test/
+     java HelloWorld.java
+```
 E-mail:paradise.cfly@gmail.com
 QQ:3393103594
 

@@ -4,7 +4,7 @@ ecj=$(command -v ecj)
 dx=$(command -v dx)
 until [ "$ecj" == "0" && "$dx" == "0" ]
 do
-        apt-get install ecj
+        apt-get install ecj dx termux-tools
         ecj=$(command -v ecj)
         dx=$(command -v dx)
 done
