@@ -24,6 +24,4 @@
      cd ~/run_java/
      java ./Test/HelloWorld.java
 ```
-E-mail:paradise.cfly@gmail.com     
-QQ:3393103594
 
